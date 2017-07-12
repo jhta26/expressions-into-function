@@ -32,3 +32,7 @@ var string = "My name is " + name;
 string += ", and my height is " + height;
 string += ", and my favorite color is " + favoriteColor;
 console.log(string);
+
+function(name, height, favoriteColor){
+  console.log("My name is " + name + ", and my height is " + height + ", and my favorite color is "+ favoriteColor)
+}
